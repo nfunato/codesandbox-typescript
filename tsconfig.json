@@ -3,8 +3,10 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // tentative comment out for Practice1.tsx
-        // "strict": true,
+        // at practices(1-3), tentative comment out for Practice1.tsx
+        "strict": true, // use at practice4
+        "noImplicitAny": false, // override part of "strict" above
+        //　cf. google: TSconfig 設定
         "esModuleInterop": true,
         "lib": [
             "dom",
