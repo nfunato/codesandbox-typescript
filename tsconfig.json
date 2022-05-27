@@ -3,7 +3,8 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        "strict": true,
+        // tentative comment out for Practice1.tsx
+        // "strict": true,
         "esModuleInterop": true,
         "lib": [
             "dom",
